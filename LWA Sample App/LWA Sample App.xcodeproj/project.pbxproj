@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FEFE9D1E560846008239DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEFE9C1E560846008239DE /* AppDelegate.swift */; };
+		04FEFE9F1E560846008239DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEFE9E1E560846008239DE /* ViewController.swift */; };
+		04FEFEA21E560846008239DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FEFEA01E560846008239DE /* Main.storyboard */; };
+		04FEFEA51E560846008239DE /* LWA_Sample_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04FEFEA31E560846008239DE /* LWA_Sample_App.xcdatamodeld */; };
+		04FEFEA71E560846008239DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FEFEA61E560846008239DE /* Assets.xcassets */; };
+		04FEFEAA1E560846008239DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FEFEA81E560846008239DE /* LaunchScreen.storyboard */; };
+		04FEFEB51E5608A7008239DE /* LoginWithAmazon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FEFEB41E5608A7008239DE /* LoginWithAmazon.framework */; };
+		04FEFEB71E5608D1008239DE /* LoginWithAmazonProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEFEB61E5608D1008239DE /* LoginWithAmazonProxy.swift */; };
+		04FEFEB91E5608E5008239DE /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEFEB81E5608E5008239DE /* Settings.swift */; };
+		04FEFEBB1E560D6B008239DE /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FEFEBA1E560D6B008239DE /* SafariServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04FEFE991E560846008239DE /* LWA Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LWA Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FEFE9C1E560846008239DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04FEFE9E1E560846008239DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04FEFEA11E560846008239DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FEFEA41E560846008239DE /* LWA_Sample_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LWA_Sample_App.xcdatamodel; sourceTree = "<group>"; };
+		04FEFEA61E560846008239DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04FEFEA91E560846008239DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04FEFEAB1E560846008239DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FEFEB41E5608A7008239DE /* LoginWithAmazon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LoginWithAmazon.framework; sourceTree = "<group>"; };
+		04FEFEB61E5608D1008239DE /* LoginWithAmazonProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWithAmazonProxy.swift; sourceTree = "<group>"; };
+		04FEFEB81E5608E5008239DE /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		04FEFEBA1E560D6B008239DE /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FEFE961E560846008239DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FEFEBB1E560D6B008239DE /* SafariServices.framework in Frameworks */,
+				04FEFEB51E5608A7008239DE /* LoginWithAmazon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FEFE901E560846008239DE = {
+			isa = PBXGroup;
+			children = (
+				04FEFE9B1E560846008239DE /* LWA Sample App */,
+				04FEFE9A1E560846008239DE /* Products */,
+				04FEFEB11E56087E008239DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04FEFE9A1E560846008239DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FEFE991E560846008239DE /* LWA Sample App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FEFE9B1E560846008239DE /* LWA Sample App */ = {
+			isa = PBXGroup;
+			children = (
+				04FEFE9C1E560846008239DE /* AppDelegate.swift */,
+				04FEFE9E1E560846008239DE /* ViewController.swift */,
+				04FEFEB61E5608D1008239DE /* LoginWithAmazonProxy.swift */,
+				04FEFEB81E5608E5008239DE /* Settings.swift */,
+				04FEFEA01E560846008239DE /* Main.storyboard */,
+				04FEFEA61E560846008239DE /* Assets.xcassets */,
+				04FEFEA81E560846008239DE /* LaunchScreen.storyboard */,
+				04FEFEAB1E560846008239DE /* Info.plist */,
+				04FEFEA31E560846008239DE /* LWA_Sample_App.xcdatamodeld */,
+			);
+			path = "LWA Sample App";
+			sourceTree = "<group>";
+		};
+		04FEFEB11E56087E008239DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04FEFEBA1E560D6B008239DE /* SafariServices.framework */,
+				04FEFEB41E5608A7008239DE /* LoginWithAmazon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FEFE981E560846008239DE /* LWA Sample App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FEFEAE1E560846008239DE /* Build configuration list for PBXNativeTarget "LWA Sample App" */;
+			buildPhases = (
+				04FEFE951E560846008239DE /* Sources */,
+				04FEFE961E560846008239DE /* Frameworks */,
+				04FEFE971E560846008239DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LWA Sample App";
+			productName = "LWA Sample App";
+			productReference = 04FEFE991E560846008239DE /* LWA Sample App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FEFE911E560846008239DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sheng Bi";
+				TargetAttributes = {
+					04FEFE981E560846008239DE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04FEFE941E560846008239DE /* Build configuration list for PBXProject "LWA Sample App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04FEFE901E560846008239DE;
+			productRefGroup = 04FEFE9A1E560846008239DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FEFE981E560846008239DE /* LWA Sample App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FEFE971E560846008239DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FEFEAA1E560846008239DE /* LaunchScreen.storyboard in Resources */,
+				04FEFEA71E560846008239DE /* Assets.xcassets in Resources */,
+				04FEFEA21E560846008239DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FEFE951E560846008239DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FEFE9F1E560846008239DE /* ViewController.swift in Sources */,
+				04FEFEA51E560846008239DE /* LWA_Sample_App.xcdatamodeld in Sources */,
+				04FEFEB71E5608D1008239DE /* LoginWithAmazonProxy.swift in Sources */,
+				04FEFE9D1E560846008239DE /* AppDelegate.swift in Sources */,
+				04FEFEB91E5608E5008239DE /* Settings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04FEFEA01E560846008239DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FEFEA11E560846008239DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04FEFEA81E560846008239DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FEFEA91E560846008239DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FEFEAC1E560846008239DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04FEFEAD1E560846008239DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FEFEAF1E560846008239DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "LWA Sample App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bisheng.LWA-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04FEFEB01E560846008239DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "LWA Sample App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bisheng.LWA-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FEFE941E560846008239DE /* Build configuration list for PBXProject "LWA Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FEFEAC1E560846008239DE /* Debug */,
+				04FEFEAD1E560846008239DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FEFEAE1E560846008239DE /* Build configuration list for PBXNativeTarget "LWA Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FEFEAF1E560846008239DE /* Debug */,
+				04FEFEB01E560846008239DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04FEFEA31E560846008239DE /* LWA_Sample_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04FEFEA41E560846008239DE /* LWA_Sample_App.xcdatamodel */,
+			);
+			currentVersion = 04FEFEA41E560846008239DE /* LWA_Sample_App.xcdatamodel */;
+			path = LWA_Sample_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04FEFE911E560846008239DE /* Project object */;
+}
