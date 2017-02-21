@@ -17,6 +17,7 @@
 		04FEFEB71E5608D1008239DE /* LoginWithAmazonProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEFEB61E5608D1008239DE /* LoginWithAmazonProxy.swift */; };
 		04FEFEB91E5608E5008239DE /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEFEB81E5608E5008239DE /* Settings.swift */; };
 		04FEFEBB1E560D6B008239DE /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FEFEBA1E560D6B008239DE /* SafariServices.framework */; };
+		AB11ED381E5BFDD400532FEA /* BlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11ED371E5BFDD400532FEA /* BlockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		04FEFEB61E5608D1008239DE /* LoginWithAmazonProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWithAmazonProxy.swift; sourceTree = "<group>"; };
 		04FEFEB81E5608E5008239DE /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		04FEFEBA1E560D6B008239DE /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		AB11ED371E5BFDD400532FEA /* BlockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				04FEFE9C1E560846008239DE /* AppDelegate.swift */,
 				04FEFE9E1E560846008239DE /* ViewController.swift */,
+				AB11ED371E5BFDD400532FEA /* BlockViewController.swift */,
 				04FEFEB61E5608D1008239DE /* LoginWithAmazonProxy.swift */,
 				04FEFEB81E5608E5008239DE /* Settings.swift */,
 				04FEFEA01E560846008239DE /* Main.storyboard */,
@@ -165,6 +168,7 @@
 				04FEFEA51E560846008239DE /* LWA_Sample_App.xcdatamodeld in Sources */,
 				04FEFEB71E5608D1008239DE /* LoginWithAmazonProxy.swift in Sources */,
 				04FEFE9D1E560846008239DE /* AppDelegate.swift in Sources */,
+				AB11ED381E5BFDD400532FEA /* BlockViewController.swift in Sources */,
 				04FEFEB91E5608E5008239DE /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +337,7 @@
 				04FEFEB01E560846008239DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

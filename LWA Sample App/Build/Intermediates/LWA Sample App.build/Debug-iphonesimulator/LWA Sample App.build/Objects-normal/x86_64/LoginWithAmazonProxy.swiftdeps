@@ -1,0 +1,108 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginWithAmazonProxy"
+provides-nominal:
+- "C14LWA_Sample_App20LoginWithAmazonProxy"
+provides-member:
+- ["C14LWA_Sample_App20LoginWithAmazonProxy", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AIMobileLib"
+- "AIAuthenticationDelegate"
+- !private "Settings"
+- "LoginWithAmazonProxy"
+depends-member:
+- ["PSo24AIAuthenticationDelegate", "deinit"]
+- !private ["CSo11AIMobileLib", "authorizeUser"]
+- !private ["CSo11AIMobileLib", "clearAuthorizationState"]
+- !private ["CSo11AIMobileLib", "getAccessToken"]
+- !private ["Ps9AnyObject", "AIMobileLib"]
+- ["Ps9AnyObject", "LoginWithAmazonProxy"]
+- !private ["Ps9AnyObject", "Settings"]
+- !private ["Ps9AnyObject", "authorizeUser"]
+- !private ["Ps9AnyObject", "clearAuthorizationState"]
+- !private ["Ps9AnyObject", "getAccessToken"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "deinit"]
+- !private ["Ps7CVarArg", "authorizeUser"]
+- !private ["Ps7CVarArg", "clearAuthorizationState"]
+- !private ["Ps7CVarArg", "getAccessToken"]
+- !private ["VV14LWA_Sample_App8Settings11Credentials", "SCOPES"]
+- !private ["Ps28CustomDebugStringConvertible", "authorizeUser"]
+- !private ["Ps28CustomDebugStringConvertible", "clearAuthorizationState"]
+- !private ["Ps28CustomDebugStringConvertible", "getAccessToken"]
+- !private ["Ps23CustomStringConvertible", "authorizeUser"]
+- !private ["Ps23CustomStringConvertible", "clearAuthorizationState"]
+- !private ["Ps23CustomStringConvertible", "getAccessToken"]
+- !private ["Ps9Equatable", "authorizeUser"]
+- !private ["Ps9Equatable", "clearAuthorizationState"]
+- !private ["Ps9Equatable", "getAccessToken"]
+- !private ["Ps8Hashable", "authorizeUser"]
+- !private ["Ps8Hashable", "clearAuthorizationState"]
+- !private ["Ps8Hashable", "getAccessToken"]
+- ["SQ", "deinit"]
+- ["C14LWA_Sample_App20LoginWithAmazonProxy", "AIAuthenticationDelegate"]
+- !private ["C14LWA_Sample_App20LoginWithAmazonProxy", "AIMobileLib"]
+- ["C14LWA_Sample_App20LoginWithAmazonProxy", "LoginWithAmazonProxy"]
+- !private ["C14LWA_Sample_App20LoginWithAmazonProxy", "Settings"]
+- ["C14LWA_Sample_App20LoginWithAmazonProxy", "deinit"]
+- ["C14LWA_Sample_App20LoginWithAmazonProxy", "getAccessToken"]
+- ["C14LWA_Sample_App20LoginWithAmazonProxy", "init"]
+- ["C14LWA_Sample_App20LoginWithAmazonProxy", "login"]
+- ["C14LWA_Sample_App20LoginWithAmazonProxy", "logout"]
+- ["C14LWA_Sample_App20LoginWithAmazonProxy", "sharedInstance"]
+- !private ["CSo8NSObject", "authorizeUser"]
+- !private ["CSo8NSObject", "clearAuthorizationState"]
+- !private ["CSo8NSObject", "getAccessToken"]
+- !private ["PSo16NSObjectProtocol", "authorizeUser"]
+- !private ["PSo16NSObjectProtocol", "clearAuthorizationState"]
+- !private ["PSo16NSObjectProtocol", "getAccessToken"]
+- !private ["V14LWA_Sample_App8Settings", "Credentials"]
+- !private ["Ps9_Hashable", "authorizeUser"]
+- !private ["Ps9_Hashable", "clearAuthorizationState"]
+- !private ["Ps9_Hashable", "getAccessToken"]
+depends-nominal:
+- "PSo24AIAuthenticationDelegate"
+- !private "CSo11AIMobileLib"
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps7CVarArg"
+- !private "VV14LWA_Sample_App8Settings11Credentials"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- "SQ"
+- "C14LWA_Sample_App20LoginWithAmazonProxy"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "V14LWA_Sample_App8Settings"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNLWASDKInfo.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNAuthorizationManager.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNAuthorizeResult.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNAuthorizeRequest.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNUser.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNScopeFactory.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNProfileScope.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNScope.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AIAuthenticationDelegate.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AIError.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AIMobileLib.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/LoginWithAmazon.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "ec71b81ae2a79dc485f5a0471e7229c8"

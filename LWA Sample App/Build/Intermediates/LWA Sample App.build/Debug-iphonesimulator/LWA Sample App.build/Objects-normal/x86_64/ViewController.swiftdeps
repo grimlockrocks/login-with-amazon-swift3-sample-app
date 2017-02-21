@@ -1,0 +1,519 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C14LWA_Sample_App14ViewController"
+provides-member:
+- ["C14LWA_Sample_App14ViewController", ""]
+provides-dynamic-lookup:
+- "requestDidSucceed"
+- "onClickLogoutBtn"
+- "logoutBtn"
+- "onClickLoginBtn"
+- "viewDidLoad"
+- "requestDidFail"
+- "loginBtn"
+depends-top-level:
+- !private "BooleanLiteralType"
+- !private "print"
+- "ViewController"
+- "APIResult"
+- !private "StringLiteralType"
+- "UIButton"
+- "AssignmentPrecedence"
+- "LoginWithAmazonProxy"
+- "APIError"
+- "AIAuthenticationDelegate"
+- "UIViewController"
+- !private "API"
+depends-member:
+- ["PSo24AIAuthenticationDelegate", "LoginWithAmazonProxy"]
+- !private ["PSo24AIAuthenticationDelegate", "loginBtn"]
+- !private ["PSo24AIAuthenticationDelegate", "logoutBtn"]
+- !private ["PSo24AIAuthenticationDelegate", "lwa"]
+- !private ["PSo24AIAuthenticationDelegate", "print"]
+- ["PSo24AIAuthenticationDelegate", "requestDidFail"]
+- ["PSo24AIAuthenticationDelegate", "requestDidSucceed"]
+- ["PSo24AIAuthenticationDelegate", ""]
+- !private ["CSo7AIError", "message"]
+- ["OSC3API", "authorizeUser"]
+- ["OSC3API", "clearAuthorizationState"]
+- ["OSC3API", "getAccessToken"]
+- ["CSo8APIError", "deinit"]
+- !private ["CSo8APIError", "error"]
+- !private ["CSo9APIResult", "api"]
+- ["CSo9APIResult", "deinit"]
+- ["Ps9AnyObject", "LoginWithAmazonProxy"]
+- !private ["Ps9AnyObject", "api"]
+- !private ["Ps9AnyObject", "error"]
+- !private ["Ps9AnyObject", "getAccessToken"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEnabled"]
+- !private ["Ps9AnyObject", "login"]
+- ["Ps9AnyObject", "loginBtn"]
+- !private ["Ps9AnyObject", "logout"]
+- ["Ps9AnyObject", "logoutBtn"]
+- ["Ps9AnyObject", "lwa"]
+- !private ["Ps9AnyObject", "message"]
+- ["Ps9AnyObject", "onClickLoginBtn"]
+- ["Ps9AnyObject", "onClickLogoutBtn"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "requestDidFail"]
+- ["Ps9AnyObject", "requestDidSucceed"]
+- ["Ps9AnyObject", "sharedInstance"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "isEnabled"]
+- ["Ps7CVarArg", "LoginWithAmazonProxy"]
+- !private ["Ps7CVarArg", "api"]
+- !private ["Ps7CVarArg", "error"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEnabled"]
+- ["Ps7CVarArg", "loginBtn"]
+- ["Ps7CVarArg", "logoutBtn"]
+- ["Ps7CVarArg", "lwa"]
+- !private ["Ps7CVarArg", "message"]
+- ["Ps7CVarArg", "onClickLoginBtn"]
+- ["Ps7CVarArg", "onClickLogoutBtn"]
+- !private ["Ps7CVarArg", "print"]
+- ["Ps7CVarArg", "requestDidFail"]
+- ["Ps7CVarArg", "requestDidSucceed"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "LoginWithAmazonProxy"]
+- !private ["Ps28CustomDebugStringConvertible", "api"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEnabled"]
+- ["Ps28CustomDebugStringConvertible", "loginBtn"]
+- ["Ps28CustomDebugStringConvertible", "logoutBtn"]
+- ["Ps28CustomDebugStringConvertible", "lwa"]
+- !private ["Ps28CustomDebugStringConvertible", "message"]
+- ["Ps28CustomDebugStringConvertible", "onClickLoginBtn"]
+- ["Ps28CustomDebugStringConvertible", "onClickLogoutBtn"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "requestDidFail"]
+- ["Ps28CustomDebugStringConvertible", "requestDidSucceed"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "LoginWithAmazonProxy"]
+- !private ["Ps23CustomStringConvertible", "api"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEnabled"]
+- ["Ps23CustomStringConvertible", "loginBtn"]
+- ["Ps23CustomStringConvertible", "logoutBtn"]
+- ["Ps23CustomStringConvertible", "lwa"]
+- !private ["Ps23CustomStringConvertible", "message"]
+- ["Ps23CustomStringConvertible", "onClickLoginBtn"]
+- ["Ps23CustomStringConvertible", "onClickLogoutBtn"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "requestDidFail"]
+- ["Ps23CustomStringConvertible", "requestDidSucceed"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- ["Ps9Equatable", "LoginWithAmazonProxy"]
+- !private ["Ps9Equatable", "api"]
+- ["Ps9Equatable", "authorizeUser"]
+- ["Ps9Equatable", "clearAuthorizationState"]
+- !private ["Ps9Equatable", "error"]
+- ["Ps9Equatable", "getAccessToken"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isEnabled"]
+- ["Ps9Equatable", "loginBtn"]
+- ["Ps9Equatable", "logoutBtn"]
+- ["Ps9Equatable", "lwa"]
+- !private ["Ps9Equatable", "message"]
+- ["Ps9Equatable", "onClickLoginBtn"]
+- ["Ps9Equatable", "onClickLogoutBtn"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "requestDidFail"]
+- ["Ps9Equatable", "requestDidSucceed"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- ["Ps8Hashable", "LoginWithAmazonProxy"]
+- !private ["Ps8Hashable", "api"]
+- ["Ps8Hashable", "authorizeUser"]
+- ["Ps8Hashable", "clearAuthorizationState"]
+- !private ["Ps8Hashable", "error"]
+- ["Ps8Hashable", "getAccessToken"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isEnabled"]
+- ["Ps8Hashable", "loginBtn"]
+- ["Ps8Hashable", "logoutBtn"]
+- ["Ps8Hashable", "lwa"]
+- !private ["Ps8Hashable", "message"]
+- ["Ps8Hashable", "onClickLoginBtn"]
+- ["Ps8Hashable", "onClickLogoutBtn"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "requestDidFail"]
+- ["Ps8Hashable", "requestDidSucceed"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- ["C14LWA_Sample_App20LoginWithAmazonProxy", "deinit"]
+- !private ["C14LWA_Sample_App20LoginWithAmazonProxy", "getAccessToken"]
+- !private ["C14LWA_Sample_App20LoginWithAmazonProxy", "login"]
+- !private ["C14LWA_Sample_App20LoginWithAmazonProxy", "logout"]
+- ["C14LWA_Sample_App20LoginWithAmazonProxy", "sharedInstance"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "LoginWithAmazonProxy"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEnabled"]
+- ["PSo8NSCoding", "loginBtn"]
+- ["PSo8NSCoding", "logoutBtn"]
+- ["PSo8NSCoding", "lwa"]
+- ["PSo8NSCoding", "onClickLoginBtn"]
+- ["PSo8NSCoding", "onClickLogoutBtn"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "requestDidFail"]
+- ["PSo8NSCoding", "requestDidSucceed"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- ["PSo26NSExtensionRequestHandling", "LoginWithAmazonProxy"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loginBtn"]
+- ["PSo26NSExtensionRequestHandling", "logoutBtn"]
+- ["PSo26NSExtensionRequestHandling", "lwa"]
+- ["PSo26NSExtensionRequestHandling", "onClickLoginBtn"]
+- ["PSo26NSExtensionRequestHandling", "onClickLogoutBtn"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "requestDidFail"]
+- ["PSo26NSExtensionRequestHandling", "requestDidSucceed"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "API"]
+- ["CSo8NSObject", "APIError"]
+- ["CSo8NSObject", "APIResult"]
+- ["CSo8NSObject", "LoginWithAmazonProxy"]
+- ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "api"]
+- !private ["CSo8NSObject", "error"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isEnabled"]
+- ["CSo8NSObject", "loginBtn"]
+- ["CSo8NSObject", "logoutBtn"]
+- ["CSo8NSObject", "lwa"]
+- !private ["CSo8NSObject", "message"]
+- ["CSo8NSObject", "onClickLoginBtn"]
+- ["CSo8NSObject", "onClickLogoutBtn"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "requestDidFail"]
+- ["CSo8NSObject", "requestDidSucceed"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "LoginWithAmazonProxy"]
+- !private ["PSo16NSObjectProtocol", "api"]
+- !private ["PSo16NSObjectProtocol", "error"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEnabled"]
+- ["PSo16NSObjectProtocol", "loginBtn"]
+- ["PSo16NSObjectProtocol", "logoutBtn"]
+- ["PSo16NSObjectProtocol", "lwa"]
+- !private ["PSo16NSObjectProtocol", "message"]
+- ["PSo16NSObjectProtocol", "onClickLoginBtn"]
+- ["PSo16NSObjectProtocol", "onClickLogoutBtn"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "requestDidFail"]
+- ["PSo16NSObjectProtocol", "requestDidSucceed"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["Ps16RawRepresentable", "authorizeUser"]
+- ["Ps16RawRepresentable", "clearAuthorizationState"]
+- ["Ps16RawRepresentable", "getAccessToken"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "isEnabled"]
+- !private ["PSo12UIAppearance", "isEnabled"]
+- ["PSo21UIAppearanceContainer", "LoginWithAmazonProxy"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isEnabled"]
+- ["PSo21UIAppearanceContainer", "loginBtn"]
+- ["PSo21UIAppearanceContainer", "logoutBtn"]
+- ["PSo21UIAppearanceContainer", "lwa"]
+- ["PSo21UIAppearanceContainer", "onClickLoginBtn"]
+- ["PSo21UIAppearanceContainer", "onClickLogoutBtn"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "requestDidFail"]
+- ["PSo21UIAppearanceContainer", "requestDidSucceed"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "isEnabled"]
+- ["PSo18UIContentContainer", "LoginWithAmazonProxy"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loginBtn"]
+- ["PSo18UIContentContainer", "logoutBtn"]
+- ["PSo18UIContentContainer", "lwa"]
+- ["PSo18UIContentContainer", "onClickLoginBtn"]
+- ["PSo18UIContentContainer", "onClickLogoutBtn"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "requestDidFail"]
+- ["PSo18UIContentContainer", "requestDidSucceed"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "isEnabled"]
+- !private ["PSo17UICoordinateSpace", "isEnabled"]
+- !private ["PSo13UIDynamicItem", "isEnabled"]
+- ["PSo18UIFocusEnvironment", "LoginWithAmazonProxy"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isEnabled"]
+- ["PSo18UIFocusEnvironment", "loginBtn"]
+- ["PSo18UIFocusEnvironment", "logoutBtn"]
+- ["PSo18UIFocusEnvironment", "lwa"]
+- ["PSo18UIFocusEnvironment", "onClickLoginBtn"]
+- ["PSo18UIFocusEnvironment", "onClickLogoutBtn"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "requestDidFail"]
+- ["PSo18UIFocusEnvironment", "requestDidSucceed"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "isEnabled"]
+- !private ["CSo11UIResponder", "API"]
+- ["CSo11UIResponder", "APIError"]
+- ["CSo11UIResponder", "APIResult"]
+- ["CSo11UIResponder", "LoginWithAmazonProxy"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isEnabled"]
+- ["CSo11UIResponder", "loginBtn"]
+- ["CSo11UIResponder", "logoutBtn"]
+- ["CSo11UIResponder", "lwa"]
+- ["CSo11UIResponder", "onClickLoginBtn"]
+- ["CSo11UIResponder", "onClickLogoutBtn"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "requestDidFail"]
+- ["CSo11UIResponder", "requestDidSucceed"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "LoginWithAmazonProxy"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isEnabled"]
+- ["PSo30UIResponderStandardEditActions", "loginBtn"]
+- ["PSo30UIResponderStandardEditActions", "logoutBtn"]
+- ["PSo30UIResponderStandardEditActions", "lwa"]
+- ["PSo30UIResponderStandardEditActions", "onClickLoginBtn"]
+- ["PSo30UIResponderStandardEditActions", "onClickLogoutBtn"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- ["PSo30UIResponderStandardEditActions", "requestDidFail"]
+- ["PSo30UIResponderStandardEditActions", "requestDidSucceed"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["PSo16UIStateRestoring", "LoginWithAmazonProxy"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loginBtn"]
+- ["PSo16UIStateRestoring", "logoutBtn"]
+- ["PSo16UIStateRestoring", "lwa"]
+- ["PSo16UIStateRestoring", "onClickLoginBtn"]
+- ["PSo16UIStateRestoring", "onClickLogoutBtn"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "requestDidFail"]
+- ["PSo16UIStateRestoring", "requestDidSucceed"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "LoginWithAmazonProxy"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isEnabled"]
+- ["PSo18UITraitEnvironment", "loginBtn"]
+- ["PSo18UITraitEnvironment", "logoutBtn"]
+- ["PSo18UITraitEnvironment", "lwa"]
+- ["PSo18UITraitEnvironment", "onClickLoginBtn"]
+- ["PSo18UITraitEnvironment", "onClickLogoutBtn"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "requestDidFail"]
+- ["PSo18UITraitEnvironment", "requestDidSucceed"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "isEnabled"]
+- !private ["CSo16UIViewController", "API"]
+- ["CSo16UIViewController", "APIError"]
+- ["CSo16UIViewController", "APIResult"]
+- ["CSo16UIViewController", "LoginWithAmazonProxy"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loginBtn"]
+- ["CSo16UIViewController", "logoutBtn"]
+- ["CSo16UIViewController", "lwa"]
+- ["CSo16UIViewController", "onClickLoginBtn"]
+- ["CSo16UIViewController", "onClickLogoutBtn"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "requestDidFail"]
+- ["CSo16UIViewController", "requestDidSucceed"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["C14LWA_Sample_App14ViewController", "API"]
+- ["C14LWA_Sample_App14ViewController", "APIError"]
+- ["C14LWA_Sample_App14ViewController", "APIResult"]
+- ["C14LWA_Sample_App14ViewController", "LoginWithAmazonProxy"]
+- ["C14LWA_Sample_App14ViewController", "UIButton"]
+- ["C14LWA_Sample_App14ViewController", "deinit"]
+- ["C14LWA_Sample_App14ViewController", "init"]
+- ["C14LWA_Sample_App14ViewController", "loginBtn"]
+- ["C14LWA_Sample_App14ViewController", "logoutBtn"]
+- ["C14LWA_Sample_App14ViewController", "lwa"]
+- ["C14LWA_Sample_App14ViewController", "onClickLoginBtn"]
+- ["C14LWA_Sample_App14ViewController", "onClickLogoutBtn"]
+- !private ["C14LWA_Sample_App14ViewController", "print"]
+- ["C14LWA_Sample_App14ViewController", "requestDidFail"]
+- ["C14LWA_Sample_App14ViewController", "requestDidSucceed"]
+- ["C14LWA_Sample_App14ViewController", "viewDidLoad"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isEnabled"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "LoginWithAmazonProxy"]
+- !private ["Ps9_Hashable", "api"]
+- ["Ps9_Hashable", "authorizeUser"]
+- ["Ps9_Hashable", "clearAuthorizationState"]
+- !private ["Ps9_Hashable", "error"]
+- ["Ps9_Hashable", "getAccessToken"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isEnabled"]
+- ["Ps9_Hashable", "loginBtn"]
+- ["Ps9_Hashable", "logoutBtn"]
+- ["Ps9_Hashable", "lwa"]
+- !private ["Ps9_Hashable", "message"]
+- ["Ps9_Hashable", "onClickLoginBtn"]
+- ["Ps9_Hashable", "onClickLogoutBtn"]
+- !private ["Ps9_Hashable", "print"]
+- ["Ps9_Hashable", "requestDidFail"]
+- ["Ps9_Hashable", "requestDidSucceed"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "PSo24AIAuthenticationDelegate"
+- !private "CSo7AIError"
+- "OSC3API"
+- "CSo8APIError"
+- "CSo9APIResult"
+- "Ps9AnyObject"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- "SQ"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- "C14LWA_Sample_App20LoginWithAmazonProxy"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "Ps16RawRepresentable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- "C14LWA_Sample_App14ViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNLWASDKInfo.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNAuthorizationManager.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNAuthorizeResult.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNAuthorizeRequest.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNUser.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNScopeFactory.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNProfileScope.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNScope.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AIAuthenticationDelegate.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AIError.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AIMobileLib.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/LoginWithAmazon.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "0ffc5ea7316cfbb3ae781ac666cd2ed3"

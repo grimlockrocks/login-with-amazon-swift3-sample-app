@@ -1,0 +1,642 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BlockViewController"
+provides-nominal:
+- "C14LWA_Sample_App19BlockViewController"
+provides-member:
+- ["C14LWA_Sample_App19BlockViewController", ""]
+provides-dynamic-lookup:
+- "onClickLoginBtn"
+- "viewDidLoad"
+- "logoutBtn"
+- "onClickLogoutBtn"
+- "loginBtn"
+- "didReceiveMemoryWarning"
+depends-top-level:
+- "UIButton"
+- !private "print"
+- !private "Void"
+- "AssignmentPrecedence"
+- !private "AMZNAuthorizationManager"
+- !private "Array"
+- "BlockViewController"
+- !private "AMZNProfileScope"
+- "UIViewController"
+- !private "AMZNAuthorizeRequest"
+- "StringLiteralType"
+- !private "!="
+- !private "DispatchQueue"
+- "BooleanLiteralType"
+- !private "AMZNInteractiveStrategy"
+depends-member:
+- !private ["CSo24AMZNAuthorizationManager", "authorize"]
+- ["CSo24AMZNAuthorizationManager", "deinit"]
+- !private ["CSo24AMZNAuthorizationManager", "shared"]
+- !private ["CSo24AMZNAuthorizationManager", "signOut"]
+- ["CSo20AMZNAuthorizeRequest", "deinit"]
+- !private ["CSo20AMZNAuthorizeRequest", "init"]
+- !private ["CSo20AMZNAuthorizeRequest", "interactiveStrategy"]
+- !private ["CSo20AMZNAuthorizeRequest", "scopes"]
+- ["OSC23AMZNInteractiveStrategy", "deinit"]
+- !private ["OSC23AMZNInteractiveStrategy", "never"]
+- !private ["CSo16AMZNProfileScope", "profile"]
+- ["PSo9AMZNScope", "deinit"]
+- !private ["PSo9AMZNScope", "profile"]
+- !private ["Ps9AnyObject", "AMZNAuthorizationManager"]
+- !private ["Ps9AnyObject", "AMZNAuthorizeRequest"]
+- !private ["Ps9AnyObject", "AMZNInteractiveStrategy"]
+- !private ["Ps9AnyObject", "AMZNProfileScope"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "authorize"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "interactiveStrategy"]
+- !private ["Ps9AnyObject", "isEnabled"]
+- ["Ps9AnyObject", "loginBtn"]
+- ["Ps9AnyObject", "logoutBtn"]
+- !private ["Ps9AnyObject", "main"]
+- ["Ps9AnyObject", "onClickLoginBtn"]
+- ["Ps9AnyObject", "onClickLogoutBtn"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "profile"]
+- !private ["Ps9AnyObject", "scopes"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "signOut"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["C14LWA_Sample_App19BlockViewController", "AMZNAuthorizationManager"]
+- !private ["C14LWA_Sample_App19BlockViewController", "AMZNAuthorizeRequest"]
+- !private ["C14LWA_Sample_App19BlockViewController", "AMZNInteractiveStrategy"]
+- !private ["C14LWA_Sample_App19BlockViewController", "AMZNProfileScope"]
+- !private ["C14LWA_Sample_App19BlockViewController", "DispatchQueue"]
+- ["C14LWA_Sample_App19BlockViewController", "UIButton"]
+- !private ["C14LWA_Sample_App19BlockViewController", "Void"]
+- ["C14LWA_Sample_App19BlockViewController", "deinit"]
+- ["C14LWA_Sample_App19BlockViewController", "didReceiveMemoryWarning"]
+- ["C14LWA_Sample_App19BlockViewController", "init"]
+- ["C14LWA_Sample_App19BlockViewController", "loginBtn"]
+- ["C14LWA_Sample_App19BlockViewController", "logoutBtn"]
+- ["C14LWA_Sample_App19BlockViewController", "onClickLoginBtn"]
+- ["C14LWA_Sample_App19BlockViewController", "onClickLogoutBtn"]
+- !private ["C14LWA_Sample_App19BlockViewController", "print"]
+- ["C14LWA_Sample_App19BlockViewController", "viewDidLoad"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "isEnabled"]
+- !private ["Ps7CVarArg", "AMZNAuthorizationManager"]
+- !private ["Ps7CVarArg", "AMZNAuthorizeRequest"]
+- !private ["Ps7CVarArg", "AMZNInteractiveStrategy"]
+- !private ["Ps7CVarArg", "AMZNProfileScope"]
+- !private ["Ps7CVarArg", "DispatchQueue"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "authorize"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "interactiveStrategy"]
+- !private ["Ps7CVarArg", "isEnabled"]
+- ["Ps7CVarArg", "loginBtn"]
+- ["Ps7CVarArg", "logoutBtn"]
+- !private ["Ps7CVarArg", "main"]
+- ["Ps7CVarArg", "onClickLoginBtn"]
+- ["Ps7CVarArg", "onClickLogoutBtn"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "profile"]
+- !private ["Ps7CVarArg", "scopes"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "signOut"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "AMZNAuthorizationManager"]
+- !private ["Ps28CustomDebugStringConvertible", "AMZNAuthorizeRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "AMZNInteractiveStrategy"]
+- !private ["Ps28CustomDebugStringConvertible", "AMZNProfileScope"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "authorize"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "interactiveStrategy"]
+- !private ["Ps28CustomDebugStringConvertible", "isEnabled"]
+- ["Ps28CustomDebugStringConvertible", "loginBtn"]
+- ["Ps28CustomDebugStringConvertible", "logoutBtn"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- ["Ps28CustomDebugStringConvertible", "onClickLoginBtn"]
+- ["Ps28CustomDebugStringConvertible", "onClickLogoutBtn"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "profile"]
+- !private ["Ps28CustomDebugStringConvertible", "scopes"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "signOut"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "AMZNAuthorizationManager"]
+- !private ["Ps23CustomStringConvertible", "AMZNAuthorizeRequest"]
+- !private ["Ps23CustomStringConvertible", "AMZNInteractiveStrategy"]
+- !private ["Ps23CustomStringConvertible", "AMZNProfileScope"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "authorize"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "interactiveStrategy"]
+- !private ["Ps23CustomStringConvertible", "isEnabled"]
+- ["Ps23CustomStringConvertible", "loginBtn"]
+- ["Ps23CustomStringConvertible", "logoutBtn"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "onClickLoginBtn"]
+- ["Ps23CustomStringConvertible", "onClickLogoutBtn"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "profile"]
+- !private ["Ps23CustomStringConvertible", "scopes"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "signOut"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "deinit"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "AMZNAuthorizationManager"]
+- !private ["Ps9Equatable", "AMZNAuthorizeRequest"]
+- !private ["Ps9Equatable", "AMZNInteractiveStrategy"]
+- !private ["Ps9Equatable", "AMZNProfileScope"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "authorize"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "interactiveStrategy"]
+- !private ["Ps9Equatable", "isEnabled"]
+- ["Ps9Equatable", "loginBtn"]
+- ["Ps9Equatable", "logoutBtn"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "never"]
+- ["Ps9Equatable", "onClickLoginBtn"]
+- ["Ps9Equatable", "onClickLogoutBtn"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "profile"]
+- !private ["Ps9Equatable", "scopes"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "signOut"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "AMZNAuthorizationManager"]
+- !private ["Ps8Hashable", "AMZNAuthorizeRequest"]
+- !private ["Ps8Hashable", "AMZNInteractiveStrategy"]
+- !private ["Ps8Hashable", "AMZNProfileScope"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "authorize"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "interactiveStrategy"]
+- !private ["Ps8Hashable", "isEnabled"]
+- ["Ps8Hashable", "loginBtn"]
+- ["Ps8Hashable", "logoutBtn"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "never"]
+- ["Ps8Hashable", "onClickLoginBtn"]
+- ["Ps8Hashable", "onClickLogoutBtn"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "profile"]
+- !private ["Ps8Hashable", "scopes"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "signOut"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "AMZNAuthorizationManager"]
+- !private ["PSo8NSCoding", "AMZNAuthorizeRequest"]
+- !private ["PSo8NSCoding", "AMZNInteractiveStrategy"]
+- !private ["PSo8NSCoding", "AMZNProfileScope"]
+- !private ["PSo8NSCoding", "DispatchQueue"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEnabled"]
+- ["PSo8NSCoding", "loginBtn"]
+- ["PSo8NSCoding", "logoutBtn"]
+- ["PSo8NSCoding", "onClickLoginBtn"]
+- ["PSo8NSCoding", "onClickLogoutBtn"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "AMZNAuthorizationManager"]
+- !private ["PSo26NSExtensionRequestHandling", "AMZNAuthorizeRequest"]
+- !private ["PSo26NSExtensionRequestHandling", "AMZNInteractiveStrategy"]
+- !private ["PSo26NSExtensionRequestHandling", "AMZNProfileScope"]
+- !private ["PSo26NSExtensionRequestHandling", "DispatchQueue"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loginBtn"]
+- ["PSo26NSExtensionRequestHandling", "logoutBtn"]
+- ["PSo26NSExtensionRequestHandling", "onClickLoginBtn"]
+- ["PSo26NSExtensionRequestHandling", "onClickLogoutBtn"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "AMZNAuthorizationManager"]
+- !private ["CSo8NSObject", "AMZNAuthorizeRequest"]
+- !private ["CSo8NSObject", "AMZNInteractiveStrategy"]
+- !private ["CSo8NSObject", "AMZNProfileScope"]
+- !private ["CSo8NSObject", "DispatchQueue"]
+- ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "async"]
+- !private ["CSo8NSObject", "authorize"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "interactiveStrategy"]
+- !private ["CSo8NSObject", "isEnabled"]
+- ["CSo8NSObject", "loginBtn"]
+- ["CSo8NSObject", "logoutBtn"]
+- !private ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "onClickLoginBtn"]
+- ["CSo8NSObject", "onClickLogoutBtn"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "profile"]
+- !private ["CSo8NSObject", "scopes"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "signOut"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "AMZNAuthorizationManager"]
+- !private ["PSo16NSObjectProtocol", "AMZNAuthorizeRequest"]
+- !private ["PSo16NSObjectProtocol", "AMZNInteractiveStrategy"]
+- !private ["PSo16NSObjectProtocol", "AMZNProfileScope"]
+- !private ["PSo16NSObjectProtocol", "DispatchQueue"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "authorize"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "interactiveStrategy"]
+- !private ["PSo16NSObjectProtocol", "isEnabled"]
+- ["PSo16NSObjectProtocol", "loginBtn"]
+- ["PSo16NSObjectProtocol", "logoutBtn"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- ["PSo16NSObjectProtocol", "onClickLoginBtn"]
+- ["PSo16NSObjectProtocol", "onClickLogoutBtn"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "profile"]
+- !private ["PSo16NSObjectProtocol", "scopes"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "signOut"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "main"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps16RawRepresentable", "never"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "isEnabled"]
+- !private ["PSo12UIAppearance", "isEnabled"]
+- !private ["PSo21UIAppearanceContainer", "AMZNAuthorizationManager"]
+- !private ["PSo21UIAppearanceContainer", "AMZNAuthorizeRequest"]
+- !private ["PSo21UIAppearanceContainer", "AMZNInteractiveStrategy"]
+- !private ["PSo21UIAppearanceContainer", "AMZNProfileScope"]
+- !private ["PSo21UIAppearanceContainer", "DispatchQueue"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isEnabled"]
+- ["PSo21UIAppearanceContainer", "loginBtn"]
+- ["PSo21UIAppearanceContainer", "logoutBtn"]
+- ["PSo21UIAppearanceContainer", "onClickLoginBtn"]
+- ["PSo21UIAppearanceContainer", "onClickLogoutBtn"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "isEnabled"]
+- !private ["PSo18UIContentContainer", "AMZNAuthorizationManager"]
+- !private ["PSo18UIContentContainer", "AMZNAuthorizeRequest"]
+- !private ["PSo18UIContentContainer", "AMZNInteractiveStrategy"]
+- !private ["PSo18UIContentContainer", "AMZNProfileScope"]
+- !private ["PSo18UIContentContainer", "DispatchQueue"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loginBtn"]
+- ["PSo18UIContentContainer", "logoutBtn"]
+- ["PSo18UIContentContainer", "onClickLoginBtn"]
+- ["PSo18UIContentContainer", "onClickLogoutBtn"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "isEnabled"]
+- !private ["PSo17UICoordinateSpace", "isEnabled"]
+- !private ["PSo13UIDynamicItem", "isEnabled"]
+- !private ["PSo18UIFocusEnvironment", "AMZNAuthorizationManager"]
+- !private ["PSo18UIFocusEnvironment", "AMZNAuthorizeRequest"]
+- !private ["PSo18UIFocusEnvironment", "AMZNInteractiveStrategy"]
+- !private ["PSo18UIFocusEnvironment", "AMZNProfileScope"]
+- !private ["PSo18UIFocusEnvironment", "DispatchQueue"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isEnabled"]
+- ["PSo18UIFocusEnvironment", "loginBtn"]
+- ["PSo18UIFocusEnvironment", "logoutBtn"]
+- ["PSo18UIFocusEnvironment", "onClickLoginBtn"]
+- ["PSo18UIFocusEnvironment", "onClickLogoutBtn"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "isEnabled"]
+- !private ["CSo11UIResponder", "AMZNAuthorizationManager"]
+- !private ["CSo11UIResponder", "AMZNAuthorizeRequest"]
+- !private ["CSo11UIResponder", "AMZNInteractiveStrategy"]
+- !private ["CSo11UIResponder", "AMZNProfileScope"]
+- !private ["CSo11UIResponder", "DispatchQueue"]
+- ["CSo11UIResponder", "UIButton"]
+- !private ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isEnabled"]
+- ["CSo11UIResponder", "loginBtn"]
+- ["CSo11UIResponder", "logoutBtn"]
+- ["CSo11UIResponder", "onClickLoginBtn"]
+- ["CSo11UIResponder", "onClickLogoutBtn"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "AMZNAuthorizationManager"]
+- !private ["PSo30UIResponderStandardEditActions", "AMZNAuthorizeRequest"]
+- !private ["PSo30UIResponderStandardEditActions", "AMZNInteractiveStrategy"]
+- !private ["PSo30UIResponderStandardEditActions", "AMZNProfileScope"]
+- !private ["PSo30UIResponderStandardEditActions", "DispatchQueue"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isEnabled"]
+- ["PSo30UIResponderStandardEditActions", "loginBtn"]
+- ["PSo30UIResponderStandardEditActions", "logoutBtn"]
+- ["PSo30UIResponderStandardEditActions", "onClickLoginBtn"]
+- ["PSo30UIResponderStandardEditActions", "onClickLogoutBtn"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "AMZNAuthorizationManager"]
+- !private ["PSo16UIStateRestoring", "AMZNAuthorizeRequest"]
+- !private ["PSo16UIStateRestoring", "AMZNInteractiveStrategy"]
+- !private ["PSo16UIStateRestoring", "AMZNProfileScope"]
+- !private ["PSo16UIStateRestoring", "DispatchQueue"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loginBtn"]
+- ["PSo16UIStateRestoring", "logoutBtn"]
+- ["PSo16UIStateRestoring", "onClickLoginBtn"]
+- ["PSo16UIStateRestoring", "onClickLogoutBtn"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "AMZNAuthorizationManager"]
+- !private ["PSo18UITraitEnvironment", "AMZNAuthorizeRequest"]
+- !private ["PSo18UITraitEnvironment", "AMZNInteractiveStrategy"]
+- !private ["PSo18UITraitEnvironment", "AMZNProfileScope"]
+- !private ["PSo18UITraitEnvironment", "DispatchQueue"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isEnabled"]
+- ["PSo18UITraitEnvironment", "loginBtn"]
+- ["PSo18UITraitEnvironment", "logoutBtn"]
+- ["PSo18UITraitEnvironment", "onClickLoginBtn"]
+- ["PSo18UITraitEnvironment", "onClickLogoutBtn"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "isEnabled"]
+- !private ["CSo16UIViewController", "AMZNAuthorizationManager"]
+- !private ["CSo16UIViewController", "AMZNAuthorizeRequest"]
+- !private ["CSo16UIViewController", "AMZNInteractiveStrategy"]
+- !private ["CSo16UIViewController", "AMZNProfileScope"]
+- !private ["CSo16UIViewController", "DispatchQueue"]
+- ["CSo16UIViewController", "UIButton"]
+- !private ["CSo16UIViewController", "Void"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loginBtn"]
+- ["CSo16UIViewController", "logoutBtn"]
+- ["CSo16UIViewController", "onClickLoginBtn"]
+- ["CSo16UIViewController", "onClickLogoutBtn"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isEnabled"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "AMZNAuthorizationManager"]
+- !private ["Ps9_Hashable", "AMZNAuthorizeRequest"]
+- !private ["Ps9_Hashable", "AMZNInteractiveStrategy"]
+- !private ["Ps9_Hashable", "AMZNProfileScope"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "authorize"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "interactiveStrategy"]
+- !private ["Ps9_Hashable", "isEnabled"]
+- ["Ps9_Hashable", "loginBtn"]
+- ["Ps9_Hashable", "logoutBtn"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "never"]
+- ["Ps9_Hashable", "onClickLoginBtn"]
+- ["Ps9_Hashable", "onClickLogoutBtn"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "profile"]
+- !private ["Ps9_Hashable", "scopes"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "signOut"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "CSo24AMZNAuthorizationManager"
+- "CSo20AMZNAuthorizeRequest"
+- "OSC23AMZNInteractiveStrategy"
+- !private "CSo16AMZNProfileScope"
+- "PSo9AMZNScope"
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "C14LWA_Sample_App19BlockViewController"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo9OS_object"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNLWASDKInfo.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNAuthorizationManager.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNAuthorizeResult.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNAuthorizeRequest.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNUser.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNScopeFactory.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNProfileScope.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AMZNScope.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AIAuthenticationDelegate.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AIError.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/AIMobileLib.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Headers/LoginWithAmazon.h"
+- "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LoginWithAmazon.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "611ef9e78bf7ce485e185f4974a53a35"
