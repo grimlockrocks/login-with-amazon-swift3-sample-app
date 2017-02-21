@@ -1,9 +1,0 @@
-version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "6187d7895c35491d56ae340ab10b7ab1"
-build_time: [540968397, 492910000]
-inputs:
-  "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LWA Sample App/ViewController.swift": [540967333, 0]
-  "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LWA Sample App/LoginWithAmazonProxy.swift": [540967333, 0]
-  "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LWA Sample App/AppDelegate.swift": [540967333, 0]
-  "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LWA Sample App/BlockViewController.swift": [9223372036854775807, 0]
-  "/Users/thoag/Projects/login-with-amazon-swift3-sample-app/LWA Sample App/LWA Sample App/Settings.swift": [540967333, 0]
